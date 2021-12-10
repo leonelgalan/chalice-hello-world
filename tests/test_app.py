@@ -5,4 +5,4 @@ def test_index_function():
     with Client(app) as client:
         response = client.http.get('/')
         assert response.status_code == 200
-        assert response.json_body == {'hello': 'world'}
+        assert response.json_body == {'message': 'Hello World!'}
