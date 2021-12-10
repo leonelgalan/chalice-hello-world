@@ -1,7 +1,9 @@
+import logging
+
 from chalice import Chalice
 
 app = Chalice(app_name='hello-world')
-
+app.log.setLevel(logging.DEBUG)
 
 @app.route('/')
 def index():
