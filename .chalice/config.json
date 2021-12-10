@@ -3,6 +3,10 @@
   "app_name": "hello-world",
   "stages": {
     "dev": {
+      "api_gateway_custom_domain": {
+        "domain_name": "api.dev.epifany.com",
+        "certificate_arn": "arn:aws:acm:us-east-1:893308226757:certificate/98cfbce1-5051-420a-b838-5e59d72e9eaf"
+      },
       "api_gateway_stage": "api"
     }
   }
