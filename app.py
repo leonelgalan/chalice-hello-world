@@ -8,5 +8,5 @@ app.log.setLevel(logging.DEBUG)
 @app.route('/')
 def index():
     app.log.debug('This is a debug statement')
-    return {'message': 'Hello World!'}
+    return {'message': 'Hello World!!'}
 
